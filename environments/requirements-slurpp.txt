@@ -1,0 +1,6 @@
+diffusers==0.30.3
+transformers==4.44.2
+accelerate==0.34.2
+omegaconf==2.3.0
+huggingface-hub==0.26.5
+safetensors==0.8.0

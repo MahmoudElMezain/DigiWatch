@@ -1,0 +1,229 @@
+{
+  "models": [
+    {
+      "key": "watermamba",
+      "name": "WaterMamba",
+      "directory": "WaterMamba",
+      "available": true,
+      "checkpoint": "net_g_232000.pth",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/Guan-MS/WaterMamba",
+      "dependencies": [
+        "einops",
+        "timm"
+      ],
+      "output_rounding": "round"
+    },
+    {
+      "key": "d2mamba",
+      "name": "D2Mamba",
+      "directory": "D2Mamba",
+      "available": true,
+      "checkpoint": "netG_UIEB.pt",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/Alik033/D2Mamba",
+      "dependencies": [],
+      "output_rounding": "truncate"
+    },
+    {
+      "key": "phaseformer",
+      "name": "Phaseformer",
+      "directory": "Phaseformer",
+      "available": true,
+      "checkpoint": "best.pth",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/Mdraqibkhan/Phaseformer",
+      "dependencies": [],
+      "output_rounding": "truncate"
+    },
+    {
+      "key": "wfdiff",
+      "name": "WF-Diff",
+      "directory": "WF-Diff",
+      "available": true,
+      "checkpoint": "net_g_405000.pth",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/ChenzhaoNju/WF-Diff",
+      "dependencies": [
+        "einops"
+      ],
+      "diffusion_steps": 10,
+      "output_rounding": "round"
+    },
+    {
+      "key": "slurpp",
+      "name": "SLURPP",
+      "directory": "SLURPP",
+      "available": true,
+      "checkpoint": "slurpp/config.yaml",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/kongdai123/SLURPP",
+      "output_rounding": "truncate",
+      "dependencies": [
+        "diffusers",
+        "transformers",
+        "accelerate",
+        "safetensors",
+        "omegaconf"
+      ],
+      "checkpoints": {
+        "asset_01": "slurpp/config.yaml",
+        "asset_02": "slurpp/checkpoint/diffusion/unet1/config.json",
+        "asset_03": "slurpp/checkpoint/diffusion/unet1/diffusion_pytorch_model.bin",
+        "asset_04": "slurpp/checkpoint/diffusion/unet2/config.json",
+        "asset_05": "slurpp/checkpoint/diffusion/unet2/diffusion_pytorch_model.bin",
+        "asset_06": "slurpp/checkpoint/cld/cld_clear.pth",
+        "asset_07": "stable-diffusion-2/scheduler/scheduler_config.json",
+        "asset_08": "stable-diffusion-2/text_encoder/config.json",
+        "asset_09": "stable-diffusion-2/text_encoder/model.safetensors",
+        "asset_10": "stable-diffusion-2/tokenizer/merges.txt",
+        "asset_11": "stable-diffusion-2/tokenizer/special_tokens_map.json",
+        "asset_12": "stable-diffusion-2/tokenizer/tokenizer_config.json",
+        "asset_13": "stable-diffusion-2/tokenizer/vocab.json",
+        "asset_14": "stable-diffusion-2/vae/config.json",
+        "asset_15": "stable-diffusion-2/vae/diffusion_pytorch_model.safetensors"
+      },
+      "diffusion_steps": 1,
+      "requirements_file": "environments/requirements-slurpp.txt",
+      "notes": "Full dual-network and cross-latent decoder inference with local Stable Diffusion 2 components; optional diffusion dependencies are required."
+    },
+    {
+      "key": "dcduie",
+      "name": "DCD-UIE",
+      "directory": "DCD-UIE",
+      "available": true,
+      "checkpoint": "DCD-UIE.pth",
+      "adapter": "builtin",
+      "repository": "https://github.com/zy-world/DCD-UIE",
+      "diffusion_steps": 2000,
+      "output_rounding": "truncate"
+    },
+    {
+      "key": "clipuie",
+      "name": "CLIP-UIE",
+      "directory": "CLIP-UIE",
+      "available": true,
+      "checkpoint": "CLIP-UIE.pth",
+      "adapter": "builtin",
+      "repository": "https://github.com/OUCVisionGroup/CLIP-UIE",
+      "diffusion_steps": 2000,
+      "output_rounding": "round"
+    },
+    {
+      "key": "dgdcgan",
+      "name": "DGD-cGAN",
+      "directory": "DGD-cGAN",
+      "available": true,
+      "checkpoint": "DGD-cGAN.pth",
+      "adapter": "builtin",
+      "repository": "https://github.com/SalPGS/DGD-cGAN",
+      "output_rounding": "truncate"
+    },
+    {
+      "key": "mulagan",
+      "name": "MuLA-GAN",
+      "directory": "MuLA-GAN",
+      "available": true,
+      "checkpoint": "MulaGAN.pth",
+      "adapter": "builtin",
+      "repository": "https://github.com/AhsanBaidar/MuLA_GAN",
+      "output_rounding": "truncate"
+    },
+    {
+      "key": "pyuie",
+      "name": "PyUIE",
+      "directory": "PyUIE",
+      "available": true,
+      "checkpoint": "UIEB.pt",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/ttttllt/PyUIE",
+      "dependencies": [],
+      "output_rounding": "truncate"
+    },
+    {
+      "key": "uvenet",
+      "name": "UVE-Net",
+      "directory": "UVE-Net",
+      "available": true,
+      "checkpoint": "large_net_g.pth",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/yzbouc/UVEB",
+      "notes": "Single-frame T=1 use of the official video model; temporal video context is not available from a still image.",
+      "output_rounding": "round",
+      "dependencies": [
+        "einops"
+      ]
+    },
+    {
+      "key": "cclnet",
+      "name": "CCL-Net",
+      "directory": "CCL-Net",
+      "available": true,
+      "checkpoint": "best_net_G.pth",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/lewis081/CCL-Net",
+      "checkpoints": {
+        "hr": "best_net_G.pth",
+        "cc": "best_net_G_CC.pth"
+      },
+      "output_rounding": "truncate",
+      "dependencies": [
+        "opencv-python",
+        "numpy"
+      ]
+    },
+    {
+      "key": "semiuir",
+      "name": "Semi-UIR",
+      "directory": "Semi-UIR",
+      "available": true,
+      "checkpoint": "Semi-UIR.pth",
+      "adapter": "builtin",
+      "repository": "https://github.com/Huang-ShiRui/Semi-UIR",
+      "output_rounding": "truncate"
+    },
+    {
+      "key": "pspl",
+      "name": "PSPL",
+      "directory": "PSPL",
+      "available": true,
+      "checkpoint": "PSPL_HRNet_net_G.pth",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/lewis081/PSPL",
+      "output_rounding": "truncate",
+      "dependencies": []
+    },
+    {
+      "key": "uierl",
+      "name": "UIERL",
+      "directory": "UIERL",
+      "available": true,
+      "checkpoint": "195_netG_A.pth",
+      "adapter": "builtin",
+      "repository": "https://github.com/Underwater-Lab-SHU/UIERL",
+      "output_rounding": "truncate",
+      "dependencies": [
+        "transformers",
+        "safetensors"
+      ]
+    },
+    {
+      "key": "hsruie",
+      "name": "HSRUIE",
+      "directory": "HSRUIE",
+      "available": true,
+      "checkpoint": "latest_net_NC.pth",
+      "adapter": "adapter.py",
+      "repository": "https://github.com/gemyumeng/HSRUIE",
+      "checkpoints": {
+        "nc": "latest_net_NC.pth",
+        "high2": "latest_net_HIGH2.pth",
+        "high3": "latest_net_HIGH3.pth",
+        "sad": "latest_net_SAD.pth",
+        "vgg": "vgg19-dcbb9e9d.pth"
+      },
+      "dependencies": [],
+      "output_rounding": "truncate"
+    }
+  ]
+}

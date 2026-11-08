@@ -1,0 +1,300 @@
+{
+  "description": "Required local inference model files, including trained checkpoints and supporting configurations.",
+  "hash_algorithm": "SHA256",
+  "weights": [
+    {
+      "size_bytes": 17197743,
+      "sha256": "6aff817580460cbe22f53158932410ad92a7ffaa137607543ce70d4983b31206",
+      "model": "WaterMamba",
+      "filename": "net_g_232000.pth",
+      "path": "WaterMamba/weights/net_g_232000.pth",
+      "upstream_repository": "https://github.com/Guan-MS/WaterMamba"
+    },
+    {
+      "size_bytes": 9622949,
+      "sha256": "22d7f9727510f556975bd30a5489411ebd34870f413e2ddbc41267ce98114bf7",
+      "model": "D2Mamba",
+      "filename": "netG_UIEB.pt",
+      "path": "D2Mamba/weights/netG_UIEB.pt",
+      "upstream_repository": "https://github.com/Alik033/D2Mamba"
+    },
+    {
+      "size_bytes": 7292109,
+      "sha256": "fbb2092e299e774e9fc35a4ddb6a24a0a4ac159e9c5b754b3f1d6dff18f9dfc8",
+      "model": "Phaseformer",
+      "filename": "best.pth",
+      "path": "Phaseformer/weights/best.pth",
+      "upstream_repository": "https://github.com/Mdraqibkhan/Phaseformer"
+    },
+    {
+      "size_bytes": 402904966,
+      "sha256": "f14f0fab76321e3af5e5bfc146f240248b6f7becd261819ebcb1058734860cf3",
+      "model": "WF-Diff",
+      "filename": "net_g_405000.pth",
+      "path": "WF-Diff/weights/net_g_405000.pth",
+      "upstream_repository": "https://github.com/ChenzhaoNju/WF-Diff"
+    },
+    {
+      "model": "DCD-UIE",
+      "filename": "DCD-UIE.pth",
+      "size_bytes": 391553523,
+      "sha256": "7c8d5a21f68616d93414056aa4fa706f81fd6a6823df483824c96cb4b49b9e3c",
+      "original_filename": "UIEB_gen.pth",
+      "upstream_repository": "https://github.com/zy-world/DCD-UIE",
+      "path": "DCD-UIE/weights/DCD-UIE.pth"
+    },
+    {
+      "model": "CLIP-UIE",
+      "filename": "CLIP-UIE.pth",
+      "size_bytes": 391484349,
+      "sha256": "120459d27a41d45a243f2f4fd361fdb2ce40d0fbde435a69db22a5a8395ca724",
+      "original_filename": "I6480000_E3008_gen.pth",
+      "upstream_repository": "https://github.com/OUCVisionGroup/CLIP-UIE",
+      "path": "CLIP-UIE/weights/CLIP-UIE.pth"
+    },
+    {
+      "model": "DGD-cGAN",
+      "filename": "DGD-cGAN.pth",
+      "size_bytes": 32947692,
+      "sha256": "1c5c01639b0dc715b18c2d402a41e02bf4194172ea7db7e907bb1cc368f1267d",
+      "original_filename": "G_dgdgan_epoch_850.pth",
+      "upstream_repository": "https://github.com/SalPGS/DGD-cGAN",
+      "path": "DGD-cGAN/weights/DGD-cGAN.pth"
+    },
+    {
+      "model": "MuLA-GAN",
+      "filename": "MulaGAN.pth",
+      "size_bytes": 66352033,
+      "sha256": "eb6e53f9eecd0c238842cad8f33eb0e5d7295a33fc03b8fdd7109c8e1862909c",
+      "original_filename": "generator_299.pth",
+      "upstream_repository": "https://github.com/AhsanBaidar/MuLA_GAN",
+      "path": "MuLA-GAN/weights/MulaGAN.pth"
+    },
+    {
+      "size_bytes": 18061384,
+      "sha256": "4708606263b24e1ec93e4aa36c29b7e564b07f2617d61171b9c885442eaa25c4",
+      "model": "PyUIE",
+      "filename": "UIEB.pt",
+      "path": "PyUIE/weights/UIEB.pt",
+      "upstream_repository": "https://github.com/ttttllt/PyUIE"
+    },
+    {
+      "size_bytes": 18211345,
+      "sha256": "68114f50e48e400f9affbeaf6ad640745a2e7733bcd8c6b40821425e4e1c31bc",
+      "model": "UVE-Net",
+      "filename": "large_net_g.pth",
+      "path": "UVE-Net/weights/large_net_g.pth",
+      "upstream_repository": "https://github.com/yzbouc/UVEB"
+    },
+    {
+      "size_bytes": 412459,
+      "sha256": "aec348d318f42e04b312a85748647eede128b2947826e6ba620d2134dbef9234",
+      "model": "CCL-Net",
+      "filename": "best_net_G.pth",
+      "path": "CCL-Net/weights/best_net_G.pth",
+      "upstream_repository": "https://github.com/lewis081/CCL-Net"
+    },
+    {
+      "size_bytes": 1813227,
+      "sha256": "c48b555c76f710815674cfdc38c16a02f9768cef55d47cf22e08d855b18f3eac",
+      "model": "CCL-Net",
+      "filename": "best_net_G_CC.pth",
+      "path": "CCL-Net/weights/best_net_G_CC.pth",
+      "upstream_repository": "https://github.com/lewis081/CCL-Net"
+    },
+    {
+      "model": "Semi-UIR",
+      "filename": "Semi-UIR.pth",
+      "size_bytes": 20313316,
+      "sha256": "4ccf77a11685a972964bc12445b12b976537251a05f51b9ad5f800fd680b871b",
+      "original_filename": "model.pth",
+      "upstream_repository": "https://github.com/Huang-ShiRui/Semi-UIR",
+      "path": "Semi-UIR/weights/Semi-UIR.pth"
+    },
+    {
+      "size_bytes": 411721,
+      "sha256": "30ed6c753a2bf9c6f9bf75610ee2c45f0d584ab7d4a3e6a8219aed897664c830",
+      "model": "PSPL",
+      "filename": "PSPL_HRNet_net_G.pth",
+      "path": "PSPL/weights/PSPL_HRNet_net_G.pth",
+      "upstream_repository": "https://github.com/lewis081/PSPL"
+    },
+    {
+      "size_bytes": 37238739,
+      "sha256": "8a530b5960698b78e638fad2ae2d3b09f789b090cc21d505abeffdf39da57fed",
+      "model": "HSRUIE",
+      "filename": "latest_net_NC.pth",
+      "path": "HSRUIE/weights/latest_net_NC.pth",
+      "upstream_repository": "https://github.com/gemyumeng/HSRUIE"
+    },
+    {
+      "size_bytes": 3223196,
+      "sha256": "a464cff319a17e8cebfbc200f70846925b9964640f79386505e7c6cde7b3f2af",
+      "model": "HSRUIE",
+      "filename": "latest_net_HIGH2.pth",
+      "path": "HSRUIE/weights/latest_net_HIGH2.pth",
+      "upstream_repository": "https://github.com/gemyumeng/HSRUIE"
+    },
+    {
+      "size_bytes": 4344399,
+      "sha256": "ddbb0f17a1881a14fd4c8823a84e18e8a3c8d181fad3401b2ed0dea179a13eb5",
+      "model": "HSRUIE",
+      "filename": "latest_net_HIGH3.pth",
+      "path": "HSRUIE/weights/latest_net_HIGH3.pth",
+      "upstream_repository": "https://github.com/gemyumeng/HSRUIE"
+    },
+    {
+      "size_bytes": 5941340,
+      "sha256": "0d66726fbf23257dead2328bd41afa90fcc145cdc5a41b9d4585a80315c1b63b",
+      "model": "HSRUIE",
+      "filename": "latest_net_SAD.pth",
+      "path": "HSRUIE/weights/latest_net_SAD.pth",
+      "upstream_repository": "https://github.com/gemyumeng/HSRUIE"
+    },
+    {
+      "size_bytes": 574673361,
+      "sha256": "dcbb9e9dad569fff7a846263a77324fc34978fea2bfb039c012d710e1776ae44",
+      "model": "HSRUIE",
+      "filename": "vgg19-dcbb9e9d.pth",
+      "path": "HSRUIE/weights/vgg19-dcbb9e9d.pth",
+      "upstream_repository": "https://github.com/gemyumeng/HSRUIE"
+    },
+    {
+      "model": "CoralSCOP ViT-B",
+      "filename": "CoralSCOP.pth",
+      "size_bytes": 382327813,
+      "sha256": "cc589b67a4430173a35a61c6efdb68e31d15d985096e17abf27f92d6b9842d06",
+      "original_filename": "vit_b_coralscop.pth",
+      "upstream_repository": "https://github.com/zhengziqiang/CoralSCOP",
+      "path": "CoralSCOP/weights/CoralSCOP.pth"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "slurpp/config.yaml",
+      "path": "SLURPP/weights/slurpp/config.yaml",
+      "size_bytes": 1357,
+      "sha256": "5836877d4b63bf5c6d74bdadaf3ca7a7e0d0bc9343a2c5bdba2db2a4eed19140",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "slurpp/checkpoint/diffusion/unet1/config.json",
+      "path": "SLURPP/weights/slurpp/checkpoint/diffusion/unet1/config.json",
+      "size_bytes": 1903,
+      "sha256": "0c3d595144dba875bd966eaaad6cffa5ead1bec0da203e3c2420bf460db2f265",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "slurpp/checkpoint/diffusion/unet1/diffusion_pytorch_model.bin",
+      "path": "SLURPP/weights/slurpp/checkpoint/diffusion/unet1/diffusion_pytorch_model.bin",
+      "size_bytes": 3470487155,
+      "sha256": "62e0ccc6fd2a972e6e769b809675f44da047394e436416ae8ee9ddd67457ed1c",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "slurpp/checkpoint/diffusion/unet2/config.json",
+      "path": "SLURPP/weights/slurpp/checkpoint/diffusion/unet2/config.json",
+      "size_bytes": 1905,
+      "sha256": "ceeab3b4370974efa6b8373013a73a0fb4b27d70161f1385c757fd320faec3ef",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "slurpp/checkpoint/diffusion/unet2/diffusion_pytorch_model.bin",
+      "path": "SLURPP/weights/slurpp/checkpoint/diffusion/unet2/diffusion_pytorch_model.bin",
+      "size_bytes": 3470579315,
+      "sha256": "300c1fd66d4fffc8160fc84dda498bf13862c52db0b5d94e4e2bc83e962c94a7",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "slurpp/checkpoint/cld/cld_clear.pth",
+      "path": "SLURPP/weights/slurpp/checkpoint/cld/cld_clear.pth",
+      "size_bytes": 783888141,
+      "sha256": "1954f732568e9d6b5b5dea482680ccb725670558378fdf7ef8164bfca73eb1b0",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "stable-diffusion-2/scheduler/scheduler_config.json",
+      "path": "SLURPP/weights/stable-diffusion-2/scheduler/scheduler_config.json",
+      "size_bytes": 345,
+      "sha256": "4cd9b9597ca64549df35016ca02bd3450ecbac70ccd8b0465b018be4ba54fe4b",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "stable-diffusion-2/text_encoder/config.json",
+      "path": "SLURPP/weights/stable-diffusion-2/text_encoder/config.json",
+      "size_bytes": 633,
+      "sha256": "6b34b0bf6cff02e2afe88145740ef5e0316caf7add8307c8ec0b021a7923cc42",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "stable-diffusion-2/text_encoder/model.safetensors",
+      "path": "SLURPP/weights/stable-diffusion-2/text_encoder/model.safetensors",
+      "size_bytes": 1361597018,
+      "sha256": "cce6febb0b6d876ee5eb24af35e27e764eb4f9b1d0b7c026c8c3333d4cfc916c",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "stable-diffusion-2/tokenizer/merges.txt",
+      "path": "SLURPP/weights/stable-diffusion-2/tokenizer/merges.txt",
+      "size_bytes": 524619,
+      "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "stable-diffusion-2/tokenizer/special_tokens_map.json",
+      "path": "SLURPP/weights/stable-diffusion-2/tokenizer/special_tokens_map.json",
+      "size_bytes": 460,
+      "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "stable-diffusion-2/tokenizer/tokenizer_config.json",
+      "path": "SLURPP/weights/stable-diffusion-2/tokenizer/tokenizer_config.json",
+      "size_bytes": 824,
+      "sha256": "87a3154f0990fd992fd59f9d42c39520155b3d77cd543efe3f2bf011726f379d",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "stable-diffusion-2/tokenizer/vocab.json",
+      "path": "SLURPP/weights/stable-diffusion-2/tokenizer/vocab.json",
+      "size_bytes": 1059962,
+      "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "stable-diffusion-2/vae/config.json",
+      "path": "SLURPP/weights/stable-diffusion-2/vae/config.json",
+      "size_bytes": 611,
+      "sha256": "d69281aa3f6a0f3c41aaf6778e35464fc6ee8a92e6ac8a8b1eb679f6df6423eb",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "SLURPP",
+      "filename": "stable-diffusion-2/vae/diffusion_pytorch_model.safetensors",
+      "path": "SLURPP/weights/stable-diffusion-2/vae/diffusion_pytorch_model.safetensors",
+      "size_bytes": 334643276,
+      "sha256": "a1d993488569e928462932c8c38a0760b874d166399b14414135bd9c42df5815",
+      "upstream_repository": "https://github.com/kongdai123/SLURPP"
+    },
+    {
+      "model": "UIERL",
+      "filename": "195_netG_A.pth",
+      "path": "UIERL/weights/195_netG_A.pth",
+      "size_bytes": 15632703,
+      "sha256": "9e81829ec99b7f055b87897939d4fb9505cfa40d525f733b3d1a93b48ae8e68f",
+      "upstream_repository": "https://github.com/Underwater-Lab-SHU/UIERL"
+    }
+  ]
+}

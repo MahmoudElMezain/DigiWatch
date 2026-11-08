@@ -1,0 +1,27 @@
+Old Codes/
+Output/
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+/Overview.png
+/Modalities.png
+/Test1.JPG
+/Test2.JPG
+/Test3.JPG
+/Media/Example_Result.png
+/Models/*/weights/*
+!/Models/*/weights/.gitkeep
+/Models/Unknown/

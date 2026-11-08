@@ -1,0 +1,1 @@
+"""MulaGAN inference architecture."""

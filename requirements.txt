@@ -1,0 +1,13 @@
+# Install the matching torch/torchvision pair separately; see docs/SETUP.md.
+numpy==2.1.1
+Pillow==11.1.0
+matplotlib==3.10.0
+opencv-python==4.11.0.86
+colour-science==0.4.6
+scipy==1.15.1
+tqdm==4.67.1
+einops==0.8.1
+timm==1.0.22
+transformers==4.44.2
+huggingface-hub==0.26.5
+safetensors==0.8.0
